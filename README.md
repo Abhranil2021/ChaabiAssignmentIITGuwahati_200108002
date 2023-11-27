@@ -1,5 +1,8 @@
 # ChaabiAssignmentIITGuwahati_200108002
 
+## Introduction
+
+
 ## Requirements
 The following dependencies need to be installed to run the code:
 
@@ -21,3 +24,7 @@ pip install --r requirements.txt
 
 ## Results
 
+## Colab Support
+
+The Colab notebook contains detailed descriptions and step-by-step instructions for building the query engine. In addition to downloading the notebook from the repository, you can access the Colab notebook at [ChaabiAssigment](https://colab.research.google.com/drive/1B9_zwWApkKAEAWYdVs2HqifMKoxY8ceU?usp=sharing)
+![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
