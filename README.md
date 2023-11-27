@@ -1,7 +1,7 @@
 # ChaabiAssignmentIITGuwahati_200108002
 
 ## Introduction
-
+The Flask application in ```run_api.py``` serves as an API that generates answers to a query using knowledge from a data source. The application leverages open-source embedding models, vector databases and LLMs (Large Language Models) to build an end-to-end query engine that takes a query from the user and returns the answer from a database. We use Hugging Face's transformers library to load a ```hku-nlp/instructor-base``` model for generating sentence embeddings, and use ```Huggingface Hub``` to load *Flan*, an open-source LLM by Google.
 
 ## Requirements
 The following dependencies need to be installed to run the code:
