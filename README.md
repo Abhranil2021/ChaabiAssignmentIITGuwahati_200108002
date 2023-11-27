@@ -5,6 +5,8 @@ The Flask application in ```run_api.py``` serves as an API that generates answer
 
 <a href="https://ibb.co/7yYLxsS"><img src="https://i.ibb.co/x5CdKx2/Screenshot-217.png" alt="Screenshot-217" border="0" /></a>
 
+The ```llm-qa``` file initializes the embedding model, vector database, LLM and retrieval chain. The ```run_api.py``` file obtains user from the input, passes it through the pipeline and returns the generated text as a JSON response.
+
 ## Requirements
 The following dependencies need to be installed to run the code:
 
@@ -25,6 +27,9 @@ pip install --r requirements.txt
 
 
 ## Results
+We build a query engine on the data source (**bigBasketProducts.csv**) and tried a few questions relevant to it to test the pipeline. The results are as given below:
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/3kNjYxb/Screenshot-218.png" alt="Screenshot-218" border="0"></a>
 
 ## Colab Support
 
