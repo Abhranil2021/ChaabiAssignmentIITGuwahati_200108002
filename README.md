@@ -24,7 +24,11 @@ pip install --r requirements.txt
 
 ## Usage
 
+Here are the steps to run the API:
+1) Run the ```llm_qa.py``` file to load the embedding model, LLM and create the vector database
+2) Run the ```run_api.py``` file to load the API on local host to provide query input and obtain query output
 
+Note that loading models, generating embeddings and creating the vector database may take some time. It is recommended to use any available GPUs to speed up computations.
 
 ## Results
 We build a query engine on the data source (**bigBasketProducts.csv**) and tried a few questions relevant to it to test the pipeline. The results are as given below:
