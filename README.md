@@ -1,7 +1,9 @@
 # ChaabiAssignmentIITGuwahati_200108002
 
 ## Introduction
-The Flask application in ```run_api.py``` serves as an API that generates answers to a query using knowledge from a data source. The application leverages open-source embedding models, vector databases and LLMs (Large Language Models) to build an end-to-end query engine that takes a query from the user and returns the answer from a database. We use Hugging Face's transformers library to load a ```hku-nlp/instructor-base``` model for generating sentence embeddings, and use ```Huggingface Hub``` to load *Flan*, an open-source LLM by Google.
+The Flask application in ```run_api.py``` serves as an API that generates answers to a query using knowledge from a data source. The application leverages open-source embedding models, vector databases and LLMs (Large Language Models) to build an end-to-end query engine that takes a query from the user and returns the answer from a database. We use Hugging Face's transformers library to load a ```hku-nlp/instructor-base``` model for generating sentence embeddings, and use ```Huggingface Hub``` to load **Flan**, an open-source LLM by Google. The vector embeddings are stored in **FAISS (Facebook AI for Similarity Search)**, which is a vector database developed by Facebook AI. The pipeline involves obtaining the query from the user, generating the corresponding embeddings, obtaining the relevant documents from the vector database using similarity search measures, passing them to the LLM and returning the answer provided by the LLM based on the context extracted from the documents to the user. The pipeline looks like something as follows:
+
+<a href="https://ibb.co/7yYLxsS"><img src="https://i.ibb.co/x5CdKx2/Screenshot-217.png" alt="Screenshot-217" border="0" /></a>
 
 ## Requirements
 The following dependencies need to be installed to run the code:
