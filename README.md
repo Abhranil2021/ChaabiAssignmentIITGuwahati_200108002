@@ -8,7 +8,7 @@ sentence_transformers==2.2.2 \
 flask==2.2.5 \
 langchain==0.0.340 \
 faiss==1.7.2 \
-huggingface_hub==0.19.4 \
+huggingface_hub==0.19.4 
 
 Install all the missing dependencies using  
 ```bash 
@@ -16,6 +16,8 @@ pip install --r requirements.txt
 ```
 
 ## Usage
+
+
 
 ## Results
 
